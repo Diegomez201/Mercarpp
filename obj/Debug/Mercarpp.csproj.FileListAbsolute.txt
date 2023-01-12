@@ -1,0 +1,26 @@
+C:\Users\GMZ\source\repos\Mercarpp\obj\Debug\Mercarpp.csproj.AssemblyReference.cache
+C:\Users\GMZ\source\repos\Mercarpp\obj\Debug\Mercarpp.Form1.resources
+C:\Users\GMZ\source\repos\Mercarpp\obj\Debug\Mercarpp.Properties.Resources.resources
+C:\Users\GMZ\source\repos\Mercarpp\obj\Debug\Mercarpp.csproj.GenerateResource.cache
+C:\Users\GMZ\source\repos\Mercarpp\obj\Debug\Mercarpp.csproj.CoreCompileInputs.cache
+F:\Escritorio\repos\Mercarpp\obj\Debug\Mercarpp.csproj.AssemblyReference.cache
+F:\Escritorio\repos\Mercarpp\obj\Debug\Mercarpp.Form1.resources
+F:\Escritorio\repos\Mercarpp\obj\Debug\Mercarpp.Properties.Resources.resources
+F:\Escritorio\repos\Mercarpp\obj\Debug\Mercarpp.csproj.GenerateResource.cache
+F:\Escritorio\repos\Mercarpp\obj\Debug\Mercarpp.csproj.CoreCompileInputs.cache
+F:\Escritorio\repos\Mercarpp\bin\Debug\Mercarpp.exe.config
+F:\Escritorio\repos\Mercarpp\bin\Debug\Mercarpp.exe
+F:\Escritorio\repos\Mercarpp\bin\Debug\Mercarpp.pdb
+F:\Escritorio\repos\Mercarpp\obj\Debug\Mercarpp.exe
+F:\Escritorio\repos\Mercarpp\obj\Debug\Mercarpp.pdb
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\bin\Debug\Mercarpp.exe.config
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\bin\Debug\Mercarpp.exe
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\bin\Debug\Mercarpp.pdb
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\obj\Debug\Mercarpp.csproj.AssemblyReference.cache
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\obj\Debug\Mercarpp.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\obj\Debug\Mercarpp.Form1.resources
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\obj\Debug\Mercarpp.Properties.Resources.resources
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\obj\Debug\Mercarpp.csproj.GenerateResource.cache
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\obj\Debug\Mercarpp.csproj.CoreCompileInputs.cache
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\obj\Debug\Mercarpp.exe
+E:\Desktop\todo lo del escritorio\repos\Mercarpp\obj\Debug\Mercarpp.pdb

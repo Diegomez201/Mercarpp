@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="appmercar" Class="ConexionCompraDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-MS4IENS\SQLEXPRESS;Initial Catalog=appmercar;Persist Security Info=True;User ID=sa" SettingsObjectName="Mercarpp.Properties.Settings" SettingsPropertyName="appmercarConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.ActualizarCompra" Method="ActualizarCompra">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="idProducto" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Cedula" Parameter="cedula" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NombreProducto" Parameter="nombreProducto" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Descuento" Parameter="descuento" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Precio" Parameter="precio" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Lugar" Parameter="lugar" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="fecha_De_Compra" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Tipo_Producto" Parameter="tipo_Producto" Type="System.String" DbType="VarChar(40)" />
+    <Parameter Name="Observaciones" Parameter="observaciones" Type="System.String" DbType="VarChar(80)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.BuscarCompra" Method="BuscarCompra">
+    <Parameter Name="NombreProducto" Parameter="nombreProducto" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="fecha_De_Compra" Type="System.DateTime" DbType="Date" />
+    <ElementType Name="BuscarCompraResult">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idProducto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cedula" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NombreProducto" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Descuento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Precio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lugar" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fecha_De_Compra" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tipo_Producto" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Observaciones" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.EliminarCompra" Method="EliminarCompra">
+    <Parameter Name="idProducto" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.InsertarCompra" Method="InsertarCompra">
+    <Parameter Name="idProducto" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Cedula" Parameter="cedula" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NombreProducto" Parameter="nombreProducto" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Descuento" Parameter="descuento" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Precio" Parameter="precio" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Lugar" Parameter="lugar" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="fecha_De_Compra" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Tipo_Producto" Parameter="tipo_Producto" Type="System.String" DbType="VarChar(40)" />
+    <Parameter Name="Observaciones" Parameter="observaciones" Type="System.String" DbType="VarChar(80)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ListarCompra" Method="ListarCompra">
+    <ElementType Name="ListarCompraResult">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idProducto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cedula" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NombreProducto" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Descuento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Precio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lugar" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fecha_De_Compra" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tipo_Producto" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Observaciones" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
